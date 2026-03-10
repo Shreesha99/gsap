@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: beige;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h4 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.navbar h2 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.main .hero {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.main h1 {
+  font-size: 100px;
+  font-weight: 300;
+}
+
+.main p {
+  font-size: 30px;
+}
+
+.main .hero img {
+  height: 60vh;
+  width: 50vw;
+  background-color: transparent;
+}
+
+.main img:nth-child(1) {
+  height: 60vh;
+  width: 60vw;
+}
+
+.main img:nth-child(2) {
+  position: absolute;
+  left: 15vw;
+}
